@@ -6,7 +6,7 @@ function start() {
     }
     time = prompt("Введите дату в формате YYYY-MM-DD");
 }
-start();
+//start();
 
 let appData = {
     budget: money,
