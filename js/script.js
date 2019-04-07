@@ -23,6 +23,11 @@ for(let i=0;i<2;i++){
 }
 appData.expense=expenses;
 
-alert("Ваш бюджет на месяц: "+Number(appData.budget/30).toFixed(2));
+let budgetPerDay = Number(appData.budget/30).toFixed(2);
 
+alert("Ваш бюджет на месяц: "+budgetPerDay);
+
+if (budgetPerDay<100){
+    console.log('Минималочка');
+}
 
